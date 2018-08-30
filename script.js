@@ -61,13 +61,26 @@ function alternate(arrayLetters, arrayNumbers) {
     }
     console.log(final);
 }
-alternate(["a", "b", "c", "d", "e", "f", "g", "h"], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
+//alternate(["a", "b", "c", "d", "e", "f", "g", "h"], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
 
 
 
 //Coding Challenge #4 --> return min, max, average, length of a set of numbers
 function math_wiz(numberArray) {
 
-    
+    var length = numberArray.length;
+    console.log(length);
+
+    var min = Math.min(...numberArray);
+    console.log(min);
+
+    var max = Math.max(...numberArray);
+    console.log(max);
+
+    var average = numberArray.reduce(function(cookies, brownies) {
+        return cookies + brownies/numberArray.length;
+    })/(numberArray.length);
+    console.log(Math.floor(average));
 }
-math_wiz([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
+
+math_wiz([6, 9, 15, -2, 92, 11, 12]);
