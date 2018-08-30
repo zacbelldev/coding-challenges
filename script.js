@@ -32,46 +32,6 @@ function palindrome(word) {
 //palindrome("Racecar");
 
 
-
-////Coding Challenge #3 --> combine and alternate two arrays
-//function alternate(arrayLetters, arrayNumbers) {
-//    var final = [];
-//    var lettersLength = arrayLetters.length;
-//    var numbersLength = arrayNumbers.length;
-//
-//    for (var j = 0; j <= arrayLetters.length - 1; j++) {
-//        if (lettersLength > 0) {
-//            final.push(arrayLetters[j]);
-//        } else {
-//            break;
-//        }
-//        for (var i = 0; i <= arrayNumbers.length - 1; i++) {
-//
-//            if (numbersLength > 0) {
-//                final.push(arrayNumbers[i]);
-//            } else {
-//                break;
-//            }
-//
-//
-//
-//            lettersLength--;
-//            numbersLength--;
-//        }  
-//    }
-//
-//    console.log(final);
-//}
-//alternate(["a", "b", "c", "d", "e", "f", "g", "h"], [1, 2, 3, 4, 5, 6, 7]);
-
-
-
-
-
-
-
-
-
 //Coding Challenge #3 --> combine and alternate two arrays
 function alternate(arrayLetters, arrayNumbers) {
     var final = [];
@@ -102,3 +62,12 @@ function alternate(arrayLetters, arrayNumbers) {
     console.log(final);
 }
 alternate(["a", "b", "c", "d", "e", "f", "g", "h"], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
+
+
+
+//Coding Challenge #4 --> return min, max, average, length of a set of numbers
+function math_wiz(numberArray) {
+
+    
+}
+math_wiz([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
